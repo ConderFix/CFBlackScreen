@@ -1,0 +1,7 @@
+name: CFBlackScreen
+version: '1.0.0'
+main: ru.quizie.cfblackscreen.CFBlackScreen
+api-version: '1.16'
+author: Quizie
+commands:
+  blackscreen: {}

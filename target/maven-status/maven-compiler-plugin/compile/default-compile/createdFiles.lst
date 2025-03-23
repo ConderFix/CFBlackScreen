@@ -1,0 +1,5 @@
+ru\quizie\cfblackscreen\CFBlackScreen.class
+ru\quizie\cfblackscreen\Config.class
+ru\quizie\cfblackscreen\services\BlackScreenService.class
+ru\quizie\cfblackscreen\commands\BlackScreenCommand.class
+ru\quizie\cfblackscreen\blackscreen\BlackScreenManager.class
