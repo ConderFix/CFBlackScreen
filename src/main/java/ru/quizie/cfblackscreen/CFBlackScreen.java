@@ -1,12 +1,6 @@
 package ru.quizie.cfblackscreen;
 
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.inventory.InventoryCloseEvent;
-import org.bukkit.event.inventory.InventoryType;
-import org.bukkit.event.player.PlayerJoinEvent;
-import org.bukkit.inventory.Inventory;
 import org.bukkit.plugin.java.JavaPlugin;
 import ru.quizie.cfblackscreen.blackscreen.BlackScreenManager;
 import ru.quizie.cfblackscreen.commands.BlackScreenCommand;
