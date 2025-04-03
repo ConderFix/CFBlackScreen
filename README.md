@@ -27,6 +27,7 @@ ticks: 20
 - `cfblackscreen.use` — позволяет использовать команду `/blackscreen`.
 
 ## Фотографии
+**1.16.5**
 ![image](https://github.com/user-attachments/assets/e763d366-96e3-40cd-b131-c92e9e178c8e)
-
-
+**1.20+**
+https://imgur.com/a/Y89IOec
