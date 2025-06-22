@@ -12,7 +12,8 @@ import ru.quizie.cfblackscreen.blackscreen.BlackScreenManager;
 
 public class BlackScreenCommand implements CommandExecutor {
 
-    private BlackScreenManager blackScreenManager = CFBlackScreen.blackScreenManager;
+    private final BlackScreenManager blackScreenManager = BlackScreenManager.getInstance();
+
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         if (!sender.hasPermission("cfblackscreen.use")) return true;

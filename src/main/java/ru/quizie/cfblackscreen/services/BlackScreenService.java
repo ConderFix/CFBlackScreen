@@ -10,21 +10,17 @@ import ru.quizie.cfblackscreen.blackscreen.BlackScreenManager;
 
 public class BlackScreenService extends BukkitRunnable implements Listener {
 
-    private BlackScreenManager blackScreenManager = CFBlackScreen.blackScreenManager;
+    private final BlackScreenManager blackScreenManager = BlackScreenManager.getInstance();
 
     @Override
     public void run() {
         Bukkit.getOnlinePlayers().forEach(player -> {
-            if (blackScreenManager.isTrolled(player)) {
-                blackScreenManager.setBlackScreen(player);
-            }
+            if (blackScreenManager.isTrolled(player)) blackScreenManager.setBlackScreen(player);
         });
     }
 
     @EventHandler
     private void on(PlayerQuitEvent event) {
-        if (blackScreenManager.isTrolled(event.getPlayer())) {
-            blackScreenManager.setDefaultScreen(event.getPlayer());
-        }
+        if (blackScreenManager.isTrolled(event.getPlayer())) blackScreenManager.setDefaultScreen(event.getPlayer());
     }
 }
