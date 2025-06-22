@@ -30,4 +30,5 @@ ticks: 20
 **1.16.5** <br>
 ![image](https://github.com/user-attachments/assets/e763d366-96e3-40cd-b131-c92e9e178c8e)
 **1.20+** <br>
-https://imgur.com/a/Y89IOec
+![image](https://github.com/user-attachments/assets/f5fbe944-d235-4ef7-8d54-d2e9263545c6)
+
